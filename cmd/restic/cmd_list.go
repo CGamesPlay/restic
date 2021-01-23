@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/lib/errors"
+	"github.com/restic/restic/lib/repository"
+	"github.com/restic/restic/lib/restic"
 
 	"github.com/spf13/cobra"
 )

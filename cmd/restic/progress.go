@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/restic/restic/internal/ui/progress"
+	"github.com/restic/restic/lib/ui/progress"
 )
 
 // newProgressMax returns a progress.Counter that prints to stdout.

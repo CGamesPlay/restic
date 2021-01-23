@@ -2,9 +2,9 @@ package main
 
 import (
 	"github.com/restic/chunker"
-	"github.com/restic/restic/internal/backend/location"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/repository"
+	"github.com/restic/restic/lib/backend/location"
+	"github.com/restic/restic/lib/errors"
+	"github.com/restic/restic/lib/repository"
 
 	"github.com/spf13/cobra"
 )

@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/lib/debug"
+	"github.com/restic/restic/lib/restic"
 
 	"github.com/spf13/cobra"
 )

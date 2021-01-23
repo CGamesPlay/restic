@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/walker"
+	"github.com/restic/restic/lib/restic"
+	"github.com/restic/restic/lib/walker"
 
 	"github.com/minio/sha256-simd"
 	"github.com/spf13/cobra"
