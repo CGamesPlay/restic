@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	rtest "github.com/restic/restic/internal/test"
+	rtest "github.com/restic/restic/lib/test"
 )
 
 func TestBackupFailsWhenUsingInvalidPatterns(t *testing.T) {

@@ -7,10 +7,10 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/dump"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/lib/debug"
+	"github.com/restic/restic/lib/dump"
+	"github.com/restic/restic/lib/errors"
+	"github.com/restic/restic/lib/restic"
 
 	"github.com/spf13/cobra"
 )

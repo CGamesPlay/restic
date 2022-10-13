@@ -20,13 +20,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/filter"
-	"github.com/restic/restic/internal/fs"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
-	"github.com/restic/restic/internal/ui/termstatus"
+	"github.com/restic/restic/lib/errors"
+	"github.com/restic/restic/lib/filter"
+	"github.com/restic/restic/lib/fs"
+	"github.com/restic/restic/lib/repository"
+	"github.com/restic/restic/lib/restic"
+	rtest "github.com/restic/restic/lib/test"
+	"github.com/restic/restic/lib/ui/termstatus"
 	"golang.org/x/sync/errgroup"
 )
 

@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	"github.com/restic/restic/internal/backend"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/lib/backend"
+	"github.com/restic/restic/lib/restic"
 )
 
 // FindFilteredSnapshots yields Snapshots, either given explicitly by `snapshotIDs` or filtered from the list of all snapshots.

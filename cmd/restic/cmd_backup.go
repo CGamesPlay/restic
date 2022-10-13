@@ -18,16 +18,16 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/restic/restic/internal/archiver"
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/filter"
-	"github.com/restic/restic/internal/fs"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/textfile"
-	"github.com/restic/restic/internal/ui/backup"
-	"github.com/restic/restic/internal/ui/termstatus"
+	"github.com/restic/restic/lib/archiver"
+	"github.com/restic/restic/lib/debug"
+	"github.com/restic/restic/lib/errors"
+	"github.com/restic/restic/lib/filter"
+	"github.com/restic/restic/lib/fs"
+	"github.com/restic/restic/lib/repository"
+	"github.com/restic/restic/lib/restic"
+	"github.com/restic/restic/lib/textfile"
+	"github.com/restic/restic/lib/ui/backup"
+	"github.com/restic/restic/lib/ui/termstatus"
 )
 
 var cmdBackup = &cobra.Command{

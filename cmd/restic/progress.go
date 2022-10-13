@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/restic/restic/internal/ui/progress"
-	"github.com/restic/restic/internal/ui/termstatus"
+	"github.com/restic/restic/lib/ui/progress"
+	"github.com/restic/restic/lib/ui/termstatus"
 )
 
 // calculateProgressInterval returns the interval configured via RESTIC_PROGRESS_FPS
