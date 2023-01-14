@@ -7,12 +7,12 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/restic/restic/internal/backend"
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/walker"
+	"github.com/restic/restic/lib/backend"
+	"github.com/restic/restic/lib/debug"
+	"github.com/restic/restic/lib/errors"
+	"github.com/restic/restic/lib/repository"
+	"github.com/restic/restic/lib/restic"
+	"github.com/restic/restic/lib/walker"
 )
 
 var cmdRewrite = &cobra.Command{

@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 
-	"github.com/restic/restic/internal/index"
-	"github.com/restic/restic/internal/pack"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/lib/index"
+	"github.com/restic/restic/lib/pack"
+	"github.com/restic/restic/lib/repository"
+	"github.com/restic/restic/lib/restic"
 
 	"github.com/spf13/cobra"
 )

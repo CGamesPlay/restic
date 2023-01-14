@@ -11,11 +11,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/restic/restic/internal/cache"
-	"github.com/restic/restic/internal/checker"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/fs"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/lib/cache"
+	"github.com/restic/restic/lib/checker"
+	"github.com/restic/restic/lib/errors"
+	"github.com/restic/restic/lib/fs"
+	"github.com/restic/restic/lib/restic"
 )
 
 var cmdCheck = &cobra.Command{

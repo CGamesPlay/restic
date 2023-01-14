@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/lib/restic"
 )
 
 func formatNode(path string, n *restic.Node, long bool) string {
