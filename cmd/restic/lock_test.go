@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/internal/backend/location"
-	"github.com/restic/restic/internal/backend/mem"
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/test"
+	"github.com/restic/restic/lib/backend/location"
+	"github.com/restic/restic/lib/backend/mem"
+	"github.com/restic/restic/lib/debug"
+	"github.com/restic/restic/lib/repository"
+	"github.com/restic/restic/lib/restic"
+	"github.com/restic/restic/lib/test"
 )
 
 func openLockTestRepo(t *testing.T, wrapper backendWrapper) (*repository.Repository, func(), *testEnvironment) {

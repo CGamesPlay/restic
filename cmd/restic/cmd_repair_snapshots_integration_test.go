@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/lib/restic"
+	rtest "github.com/restic/restic/lib/test"
 )
 
 func testRunRepairSnapshot(t testing.TB, gopts GlobalOptions, forget bool) {

@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/lib/errors"
+	"github.com/restic/restic/lib/restic"
+	rtest "github.com/restic/restic/lib/test"
 )
 
 func TestCheckRestoreNoLock(t *testing.T) {
