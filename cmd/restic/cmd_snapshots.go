@@ -8,9 +8,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/ui"
-	"github.com/restic/restic/internal/ui/table"
+	"github.com/restic/restic/lib/restic"
+	"github.com/restic/restic/lib/ui"
+	"github.com/restic/restic/lib/ui/table"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

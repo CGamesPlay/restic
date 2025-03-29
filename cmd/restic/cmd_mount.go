@@ -12,11 +12,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/lib/debug"
+	"github.com/restic/restic/lib/errors"
+	"github.com/restic/restic/lib/restic"
 
-	"github.com/restic/restic/internal/fuse"
+	"github.com/restic/restic/lib/fuse"
 
 	systemFuse "github.com/anacrolix/fuse"
 	"github.com/anacrolix/fuse/fs"

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/restic/restic/internal/errors"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/lib/errors"
+	rtest "github.com/restic/restic/lib/test"
 )
 
 func Test_PrintFunctionsRespectsGlobalStdout(t *testing.T) {

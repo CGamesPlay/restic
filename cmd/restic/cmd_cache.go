@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/restic/restic/internal/backend/cache"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/ui"
-	"github.com/restic/restic/internal/ui/table"
+	"github.com/restic/restic/lib/backend/cache"
+	"github.com/restic/restic/lib/errors"
+	"github.com/restic/restic/lib/ui"
+	"github.com/restic/restic/lib/ui/table"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

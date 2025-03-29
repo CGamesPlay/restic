@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/restic/restic/internal/debug"
+	"github.com/restic/restic/lib/debug"
 )
 
 func createGlobalContext() context.Context {

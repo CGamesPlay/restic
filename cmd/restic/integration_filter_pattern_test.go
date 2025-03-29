@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/restic/restic/internal/filter"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/lib/filter"
+	rtest "github.com/restic/restic/lib/test"
 )
 
 func TestBackupFailsWhenUsingInvalidPatterns(t *testing.T) {
